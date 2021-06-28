@@ -1,12 +1,7 @@
-import "./App.css";
-import Navbar from "./components/Navbar/index.js";
+import Routes from "./Router";
 
 function App() {
-  return (
-    <div className="App">
-      <Navbar></Navbar>
-    </div>
-  );
+  return <Routes />;
 }
 
 export default App;

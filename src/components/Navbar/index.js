@@ -1,13 +1,14 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+// import { NavLink, BrowserRouter } from "react-router-dom";
 const Navbar = (props) => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <a className="navbar-brand" href="/">
         Navbar
       </a>
       {/* <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -15,31 +16,31 @@ const Navbar = (props) => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button> */}
 
       <div
-        class="collapse navbar-collapse d-flex justify-content-end"
+        className="collapse navbar-collapse d-flex justify-content-end"
         id="navbarSupportedContent"
       >
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="/">
+        <ul className="navbar-nav">
+          <li className="nav-item active">
+            <a className="nav-link" href="/">
               Home
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about">
+          <li className="nav-item">
+            <a className="nav-link" href="/about">
               About
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact">
+          <li className="nav-item">
+            <a className="nav-link" href="/contact">
               Contact
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/signup">
+          <li className="nav-item">
+            <a className="nav-link" href="/signup">
               Register
             </a>
           </li>
